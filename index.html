@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Counter || The Sadge</title>
+  <link rel="stylesheet" href="styles/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="error-msg">Please Enter A Valid Number !</div>
+  <div class="container">
+    <div class="start-box">
+      <input type="text" name="input" id="input-counter" placeholder="Number will convert into second">
+      <button id="start-counter">Start</button>
+      <br>
+      <div class="progress-bar">
+        <div class="c100 p0">
+          <span>0</span>
+          <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="message">
+      <span class="loading">
+        In progress...
+      </span>
+      <br>
+      <span class="success">
+        Timer finished Successfully...
+      </span>
+      <br><br>
+      <button class="refresh">
+        Change The Number
+      </button>
+    </div>
+
+  </div>
+  <script src="Script/main.js"></script>
+</body>
+
+</html>
