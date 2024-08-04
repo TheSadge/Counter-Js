@@ -41,6 +41,7 @@ function startCounter(seconds) {
     if (seconds <= 0) {
       clearInterval(timerId);
       endCounter();
+      progressCircle.classList.add("c100", "p100");
     } else {
       updateProgressBar(seconds, originalSecond);
       seconds -= 1;
